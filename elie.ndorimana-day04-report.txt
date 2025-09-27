@@ -1,0 +1,51 @@
+
+  507  ls
+  508  cd
+  509  mkdir simplestats
+  510  cd simplestats/
+  511  git init
+  512  ls
+  513  ls -A .git
+  514   cd .git
+  515  ls -A
+  516  nano description
+  517  git status
+  518  cd ..
+  519  git status
+  520  touch  README.md
+  521  git status
+  522  git add README.md 
+  523  git status
+  524  git commit -am "This is my first commit. it adds a readme  file."
+  525  git log
+  526  nano temp_notes.txt
+  527  git status
+  528  git add temp_notes.txt 
+  529  git status
+  530  git reset temp_notes.txt
+  531  git status
+  532  nano README.md 
+  533  git status
+  534  git checkout -- README.md
+  535  git status
+  536  cat README.md 
+  537  ls
+  538  nano READYOU.md 
+  539  cat READYOU.md
+  540  ls
+  541  git rm READYOU.md 
+  542  ls
+  543  git rm READYOU.md
+  544  git add READYOU.md 
+  545  git status
+  546  git add READYOU.md 
+  547  git rm READYOU.md
+  548  ls
+  549  git rm -f READYOU.md
+  550  ls
+  551  rm README.md 
+  552  ls
+  553  git checkout -- README.md
+  554  ls
+  555  history
+  556   history > day04.txt
